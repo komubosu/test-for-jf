@@ -4,7 +4,7 @@
 
 * TypeScript
 * React
-* [Placeholder Api](https://jsonplaceholder.typicode.com/){:target="_blank"}
+* [Placeholder Api](https://jsonplaceholder.typicode.com/)
 
 **GitHub Pages**
-* [Ссылка](https://komubosu.github.io/test-for-jf/){:target="_blank"}
+* [Ссылка](https://komubosu.github.io/test-for-jf/)
