@@ -1,0 +1,107 @@
+.employee-profile {
+  grid-area: profile;
+
+  padding: 30px 26px;
+  border: {
+    left: 1px solid #e0e0e0;
+  }
+
+  &__text {
+    text-align: center;
+    margin: 0 {
+      top: 220px;
+    }
+
+    color: #76787d;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__wrapper {
+    height: 100%;
+
+    display: grid;
+
+    gap: 0 60px;
+    grid-template: 19px 41px 21px auto / 424px auto;
+    grid-template-areas:
+      'img name'
+      'img email'
+      'img phone'
+      'img about';
+  }
+
+  &__img {
+    grid-area: img;
+    background: center top / contain no-repeat
+      url(../../assets/photo-placeholder.png);
+  }
+
+  &__name {
+    grid-area: name;
+    margin: 0;
+
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &__email {
+    grid-area: email;
+    margin: 0;
+    padding: 10px 0;
+
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    & span {
+      padding: {
+        left: 8px;
+      }
+      color: #76787d;
+      font-weight: 400;
+    }
+  }
+
+  &__phone {
+    grid-area: phone;
+    margin: 0;
+
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    & span {
+      padding: {
+        left: 8px;
+      }
+      color: #76787d;
+      font-weight: 400;
+    }
+  }
+
+  &__about {
+    grid-area: about;
+    margin: 0;
+    padding: {
+      top: 20px;
+    }
+
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    & span {
+      color: #76787d;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
